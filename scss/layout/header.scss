@@ -13,3 +13,11 @@ header{
                 }
             }
         }
+        .menu-burger {
+            width: 40px;
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            cursor: pointer;
+            filter: invert(1);
+        }

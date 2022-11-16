@@ -7,5 +7,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielaRR91/hora-del-cuento.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GabrielaRR91/hora-del-cuento/issues"
+  },
+  "homepage": "https://github.com/GabrielaRR91/hora-del-cuento#readme",
   "description": ""
 }

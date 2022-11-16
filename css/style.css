@@ -8,6 +8,15 @@ header nav ul li a {
   text-decoration: none;
 }
 
+.menu-burger {
+  width: 40px;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  filter: invert(1);
+}
+
 body p {
   align-items: center;
 }
@@ -43,6 +52,10 @@ body .carrusel {
   background-color: rgb(235, 49, 157);
 }
 
+img {
+  max-width: 100%;
+}
+
 footer .pie {
   background-color: black;
   text-align: center;
@@ -54,6 +67,19 @@ header nav {
   background-image: url(/asset/img/fondo-nav.jpg);
 }
 
+/*mobile*/
+/*tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .menu-burger {
+    display: none;
+  }
+}
+/* PC */
+@media screen and (min-width: 1024px) {
+  .menu-burger {
+    display: none;
+  }
+}
 header nav {
   background-image: url(../asset/img/fondo-nav.jpg);
 }
