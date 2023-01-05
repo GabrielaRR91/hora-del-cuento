@@ -28,9 +28,9 @@ if (respuesta === "si" || respuesta === "SI" || respuesta === "Si")
         const ticketedad = parseInt(prompt("Ingresa la edad de tu amigo"));
         
 
-    console.log("La persona que participa " + " " + "se llama " + ticket + " y su edad es " + ticketedad); 
+    console.log("El numero de participante " + i + " " + "se llama " + ticket + " y su edad es " + ticketedad); 
     
-    alert("La persona que participa se llama " + ticket + " " + " y su edad es " + ticketedad);
+    alert("El numero de participante " + i + "se llama" + " " + ticket + " " + " y su edad es " + ticketedad);
 
     } 
 }else{
