@@ -5,8 +5,8 @@ function obtenerAnoDeNacimiento (){
 }
 function obtenerEdad(anoDeNacimiento){
     const edad = 2023 - anoDeNacimiento;
-    console.log("Su edad es " +" " + edad);
-    alert("Su edad es" +" " + edad);
+    console.log("Su edad es " + " " + edad);
+    alert("Su edad es" + " " + edad);
 }
 
 obtenerAnoDeNacimiento();
@@ -28,9 +28,9 @@ if (respuesta === "si" || respuesta === "SI" || respuesta === "Si")
         const ticketedad = parseInt(prompt("Ingresa la edad de tu amigo"));
         
 
-    console.log("La persona que participa " + " " + i + "se llama " + ticket + " y su edad es " + ticketedad); 
+    console.log("La persona que participa " + " " + "se llama " + ticket + " y su edad es " + ticketedad); 
     
-    alert("El participante numero " + " " + i + "se llama " + ticket + "y su edad es " + ticketedad);
+    alert("La persona que participa se llama " + ticket + " " + " y su edad es " + ticketedad);
 
     } 
 }else{

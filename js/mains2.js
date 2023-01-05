@@ -5,8 +5,6 @@ console.log(" El apellido es: " + apellido)
 
 alert("Bienvenido/a: " + nombre + " " + apellido);
 
-/** pruba */
-
 const añoActual = 2022;
 const añoNacimiento = parseInt(prompt ("Si esta interesado en nuestros cuentos puede adquirirlos por esta misma pagina, para ello por favor ingrese su año de nacimiento"));
 
